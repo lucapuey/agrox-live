@@ -9,7 +9,7 @@ payload.update_summary = { items: payload.items.length, sources_ok: 1, sources_p
 const els = {};
 function el(id) { return els[id] ||= {id, innerHTML:'', value:'', dataset:{}, handlers:{}, classList:{add(){},remove(){}}, addEventListener(type,fn){this.handlers[type]=fn;}, scrollIntoView(){}}; }
 const nav = Array.from({length:8}, (_, i) => ({...el('nav'+i), dataset:{cat:['','Granos','Ganadería','Maquinaria','Fertilizantes','Energía','Tierra','Finanzas'][i]}, classList:{add(){},remove(){}}}));
-const document = {documentElement:{dataset:{}}, getElementById:el, querySelectorAll(sel){ return sel==='#nav button' ? nav : []; }};
+const document = {documentElement:{dataset:{}}, getElementById:el, querySelector(sel){ return sel==='.table-note' ? el('table-note') : null; }, querySelectorAll(sel){ return sel==='#nav button' ? nav : []; }};
 const sandbox = {document, console, Intl, Date, Number, String, Math, Array, Object, JSON, fetch:async()=>({ok:true,json:async()=>payload})};
 (async()=>{
  vm.runInNewContext(js,sandbox);
@@ -22,7 +22,8 @@ const sandbox = {document, console, Intl, Date, Number, String, Math, Array, Obj
  if (!el('table').innerHTML.includes('Dólar oficial')) throw new Error('annual global table not rendered');
  const yearSelect=el('history-range');
  if (!yearSelect.handlers.change) throw new Error('year change handler missing');
- yearSelect.handlers.change({target:{value:'2025'}});
+ yearSelect.value='2025';
+ yearSelect.handlers.change({target:yearSelect});
  if (!el('table-head').innerHTML.includes('Máximo 2025')) throw new Error('year selection did not change global annual table');
  if (!el('detail').innerHTML.includes('Extremos del año 2025')) throw new Error('detail did not update annual year');
  console.log('RUNTIME SMOKE OK', {rows:(el('table').innerHTML.match(/class="row/g)||[]).length, year:yearSelect.value, detailChars:el('detail').innerHTML.length});
