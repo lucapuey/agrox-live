@@ -72,6 +72,7 @@ jobs:
           mkdir -p _site/data
           cp index.html _site/index.html
           cp data/prices.json _site/data/prices.json
+          cp data/soja_monthly_history.json _site/data/soja_monthly_history.json
           cp .nojekyll _site/.nojekyll
 
       - name: Cargar paquete del sitio para GitHub Pages
