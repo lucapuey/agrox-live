@@ -1263,6 +1263,88 @@ def save_atomic(data: dict):
     tmp.replace(DATA_FILE)
 
 
+
+def update_soja_monthly_history(data: dict, status: dict) -> int:
+    """Append completed monthly soybean averages from the daily Rosario pizarra history.
+
+    Existing workbook observations are intentionally immutable. Missing months are
+    filled only after the month closes and at least five dated daily observations
+    exist in the updater's rolling 365-day source window.
+    """
+    path = ROOT / "data" / "soja_monthly_history.json"
+    url = f"{GRAINS_API}/pizarra/historico"
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        series = payload.get("series", [])
+        if not isinstance(series, list) or len(series) < 70:
+            raise ValueError("El histórico base mensual de soja no está disponible")
+        item = item_by_name(data.get("items", []), "Soja")
+        if not item:
+            raise ValueError("No se encontró el elemento Soja en prices.json")
+        # Use only dated observations from the rolling daily history source.
+        grouped: dict[str, list[float]] = {}
+        for obs in item.get("observations", []):
+            d = parse_date(obs.get("date"))
+            price = num(obs.get("price"))
+            if not d or not price or price <= 0:
+                continue
+            # Do not publish an unfinished current month as a monthly average.
+            if (d.year, d.month) >= (TODAY.year, TODAY.month):
+                continue
+            key = f"{d.year}-{d.month:02d}"
+            grouped.setdefault(key, []).append(price)
+        by_month = {str(row.get("date", ""))[:7]: row for row in series}
+        added = 0
+        for key, values in sorted(grouped.items()):
+            # Keep workbook/historical source records intact; only fill explicit gaps
+            # or append months that weren't present in the uploaded base series.
+            current = by_month.get(key)
+            if current and num(current.get("price")) is not None:
+                continue
+            if len(values) < 5:
+                continue
+            year, month = (int(x) for x in key.split("-"))
+            month_name = calendar.month_name[month]
+            month_names_es = ["", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                              "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+            row = {
+                "date": f"{key}-01",
+                "year": year,
+                "month": month_names_es[month],
+                "price": round(statistics.mean(values), 2),
+                "source": "Granos.ar · promedio mensual de pizarra diaria",
+                "note": f"Promedio aritmético de {len(values)} observaciones diarias disponibles. Serie móvil de hasta 365 días; metodología/fuente distinta del histórico base."
+            }
+            if current:
+                current.update(row)
+            else:
+                series.append(row)
+                by_month[key] = row
+            added += 1
+        series.sort(key=lambda row: str(row.get("date", "")))
+        payload["series"] = series
+        payload["months_in_axis"] = len(series)
+        payload["observations"] = sum(1 for row in series if num(row.get("price")) is not None)
+        payload["updated_at"] = datetime.now(ARG_TZ).isoformat(timespec="seconds")
+        payload["last_auto_extension"] = {
+            "checked_at": NOW_UTC,
+            "new_months_added_or_filled": added,
+            "method": "Promedio aritmético de observaciones diarias de la pizarra Rosario, mínimo 5 días; meses base ya verificados no se sobrescriben."
+        }
+        tmp = path.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+        tmp.replace(path)
+        update_status(status, "Soja · histórico mensual desde 2020", True,
+                      f"Histórico mensual revisado; {added} meses nuevos/completados. Los meses originales se preservan.",
+                      url, added, warning=(added == 0))
+        return added
+    except Exception as exc:
+        update_status(status, "Soja · histórico mensual desde 2020", False,
+                      f"No se modificó el histórico base; se conserva el archivo actual: {exc}",
+                      url)
+        return 0
+
+
 def main() -> int:
     data=load_data()
     if len(data.get("items",[])) < 20:
@@ -1275,6 +1357,7 @@ def main() -> int:
     # If BCRA failed but the API includes a grain-specific exchange quote, that is a last-resort daily proxy.
     # 2) Grains and other public feeds.
     update_grains(data,status,fx_current)
+    update_soja_monthly_history(data,status)
     update_milk_from_granos_indicators(data,status,fx_current)
     update_agromove_livestock(data,status,data.get("macro",{}).get("fx_history",[]))
     update_campo_argento(data,status)
