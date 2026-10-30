@@ -9,6 +9,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'data/prices.json'
+      - 'data/soja_monthly_history.json'
 
 permissions:
   contents: write
