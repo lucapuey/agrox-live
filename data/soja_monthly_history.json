@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "element": "Soja",
+  "market": "Argentina — Rosario / Up River",
+  "unit": "USD/t",
+  "frequency": "Promedio mensual",
+  "coverage": "2020-01 a 2026-10",
+  "months_in_axis": 84,
+  "observations": 76,
+  "source_change": "2020: BCP / Bloomberg – Argentina Up River (enero-junio). 2021-octubre 2026: CLAL TESEO – Mercado Rosario.",
+  "warnings": [
+    "Julio-diciembre 2020: sin dato mensual verificable en la planilla; se conserva el hueco y no se interpola.",
+    "Noviembre-diciembre 2026: períodos aún no publicados; se conservan como valores nulos.",
+    "Existe cambio de fuente/serie entre 2020 y 2021; interpretar el empalme con cautela."
+  ],
+  "sources": [
+    {
+      "period": "2020-01 a 2020-06",
+      "name": "BCP / Bloomberg – Argentina Up River",
+      "url": "https://fliphtml5.com/ubqrg/weiy/2020_Dic-Cadena-de-la-soja_compressed/"
+    },
+    {
+      "period": "2021-01 a 2026-10",
+      "name": "CLAL TESEO – Mercado Rosario",
+      "url": "https://teseo.clal.it/?section=argentina_soia"
+    },
+    {
+      "period": "Contexto oficial",
+      "name": "MAGyP – series de granos",
+      "url": "https://magyp.gob.ar/sitio/areas/ss_mercados_agropecuarios/areas/granos/index.php"
+    }
+  ],
+  "series": [
+    {
+      "date": "2020-01",
+      "year": 2020,
+      "month": "Enero",
+      "price": 344,
+      "source": "BCP / Bloomberg – Argentina Up River",
+      "note": null
+    },
+    {
+      "date": "2020-02",
+      "year": 2020,
+      "month": "Febrero",
+      "price": 342,
+      "source": "BCP / Bloomberg – Argentina Up River",
+      "note": null
+    },
+    {
+      "date": "2020-03",
+      "year": 2020,
+      "month": "Marzo",
+      "price": 337,
+      "source": "BCP / Bloomberg – Argentina Up River",
+      "note": null
+    },
+    {
+      "date": "2020-04",
+      "year": 2020,
+      "month": "Abril",
+      "price": 328,
+      "source": "BCP / Bloomberg – Argentina Up River",
+      "note": null
+    },
+    {
+      "date": "2020-05",
+      "year": 2020,
+      "month": "Mayo",
+      "price": 335,
+      "source": "BCP / Bloomberg – Argentina Up River",
+      "note": null
+    },
+    {
+      "date": "2020-06",
+      "year": 2020,
+      "month": "Junio",
+      "price": 353,
+      "source": "BCP / Bloomberg – Argentina Up River",
+      "note": null
+    },
+    {
+      "date": "2020-07",
+      "year": 2020,
+      "month": "Julio",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "La serie fuente disponible cubre únicamente enero-junio de 2020; no interpolar."
+    },
+    {
+      "date": "2020-08",
+      "year": 2020,
+      "month": "Agosto",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "La serie fuente disponible cubre únicamente enero-junio de 2020; no interpolar."
+    },
+    {
+      "date": "2020-09",
+      "year": 2020,
+      "month": "Septiembre",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "La serie fuente disponible cubre únicamente enero-junio de 2020; no interpolar."
+    },
+    {
+      "date": "2020-10",
+      "year": 2020,
+      "month": "Octubre",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "La serie fuente disponible cubre únicamente enero-junio de 2020; no interpolar."
+    },
+    {
+      "date": "2020-11",
+      "year": 2020,
+      "month": "Noviembre",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "La serie fuente disponible cubre únicamente enero-junio de 2020; no interpolar."
+    },
+    {
+      "date": "2020-12",
+      "year": 2020,
+      "month": "Diciembre",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "La serie fuente disponible cubre únicamente enero-junio de 2020; no interpolar."
+    },
+    {
+      "date": "2021-01",
+      "year": 2021,
+      "month": "Enero",
+      "price": 340,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-02",
+      "year": 2021,
+      "month": "Febrero",
+      "price": 329,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-03",
+      "year": 2021,
+      "month": "Marzo",
+      "price": 329,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-04",
+      "year": 2021,
+      "month": "Abril",
+      "price": 332,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-05",
+      "year": 2021,
+      "month": "Mayo",
+      "price": 344,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-06",
+      "year": 2021,
+      "month": "Junio",
+      "price": 321,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-07",
+      "year": 2021,
+      "month": "Julio",
+      "price": 328,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-08",
+      "year": 2021,
+      "month": "Agosto",
+      "price": 338,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-09",
+      "year": 2021,
+      "month": "Septiembre",
+      "price": 344,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-10",
+      "year": 2021,
+      "month": "Octubre",
+      "price": 349,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-11",
+      "year": 2021,
+      "month": "Noviembre",
+      "price": 351,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2021-12",
+      "year": 2021,
+      "month": "Diciembre",
+      "price": 360,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-01",
+      "year": 2022,
+      "month": "Enero",
+      "price": 386,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-02",
+      "year": 2022,
+      "month": "Febrero",
+      "price": 421,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-03",
+      "year": 2022,
+      "month": "Marzo",
+      "price": 460,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-04",
+      "year": 2022,
+      "month": "Abril",
+      "price": 435,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-05",
+      "year": 2022,
+      "month": "Mayo",
+      "price": 423,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-06",
+      "year": 2022,
+      "month": "Junio",
+      "price": 403,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-07",
+      "year": 2022,
+      "month": "Julio",
+      "price": 380,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-08",
+      "year": 2022,
+      "month": "Agosto",
+      "price": 383,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-09",
+      "year": 2022,
+      "month": "Septiembre",
+      "price": 462,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-10",
+      "year": 2022,
+      "month": "Octubre",
+      "price": 389,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-11",
+      "year": 2022,
+      "month": "Noviembre",
+      "price": 427,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2022-12",
+      "year": 2022,
+      "month": "Diciembre",
+      "price": 547,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-01",
+      "year": 2023,
+      "month": "Enero",
+      "price": 435,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-02",
+      "year": 2023,
+      "month": "Febrero",
+      "price": 442,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-03",
+      "year": 2023,
+      "month": "Marzo",
+      "price": 363,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-04",
+      "year": 2023,
+      "month": "Abril",
+      "price": 457,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-05",
+      "year": 2023,
+      "month": "Mayo",
+      "price": 450,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-06",
+      "year": 2023,
+      "month": "Junio",
+      "price": 393,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-07",
+      "year": 2023,
+      "month": "Julio",
+      "price": 367,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-08",
+      "year": 2023,
+      "month": "Agosto",
+      "price": 362,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-09",
+      "year": 2023,
+      "month": "Septiembre",
+      "price": 459,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-10",
+      "year": 2023,
+      "month": "Octubre",
+      "price": 493,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-11",
+      "year": 2023,
+      "month": "Noviembre",
+      "price": 580,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2023-12",
+      "year": 2023,
+      "month": "Diciembre",
+      "price": 394,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-01",
+      "year": 2024,
+      "month": "Enero",
+      "price": 331,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-02",
+      "year": 2024,
+      "month": "Febrero",
+      "price": 303,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-03",
+      "year": 2024,
+      "month": "Marzo",
+      "price": 297,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-04",
+      "year": 2024,
+      "month": "Abril",
+      "price": 288,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-05",
+      "year": 2024,
+      "month": "Mayo",
+      "price": 307,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-06",
+      "year": 2024,
+      "month": "Junio",
+      "price": 317,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-07",
+      "year": 2024,
+      "month": "Julio",
+      "price": 310,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-08",
+      "year": 2024,
+      "month": "Agosto",
+      "price": 306,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-09",
+      "year": 2024,
+      "month": "Septiembre",
+      "price": 310,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-10",
+      "year": 2024,
+      "month": "Octubre",
+      "price": 314,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-11",
+      "year": 2024,
+      "month": "Noviembre",
+      "price": 301,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2024-12",
+      "year": 2024,
+      "month": "Diciembre",
+      "price": 284,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-01",
+      "year": 2025,
+      "month": "Enero",
+      "price": 283,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-02",
+      "year": 2025,
+      "month": "Febrero",
+      "price": 308,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-03",
+      "year": 2025,
+      "month": "Marzo",
+      "price": 307,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-04",
+      "year": 2025,
+      "month": "Abril",
+      "price": 284,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-05",
+      "year": 2025,
+      "month": "Mayo",
+      "price": 270,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-06",
+      "year": 2025,
+      "month": "Junio",
+      "price": 273,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-07",
+      "year": 2025,
+      "month": "Julio",
+      "price": 266,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-08",
+      "year": 2025,
+      "month": "Agosto",
+      "price": 293,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-09",
+      "year": 2025,
+      "month": "Septiembre",
+      "price": 310,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-10",
+      "year": 2025,
+      "month": "Octubre",
+      "price": 336,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-11",
+      "year": 2025,
+      "month": "Noviembre",
+      "price": 340,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2025-12",
+      "year": 2025,
+      "month": "Diciembre",
+      "price": 343,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-01",
+      "year": 2026,
+      "month": "Enero",
+      "price": 338,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-02",
+      "year": 2026,
+      "month": "Febrero",
+      "price": 332,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-03",
+      "year": 2026,
+      "month": "Marzo",
+      "price": 335,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-04",
+      "year": 2026,
+      "month": "Abril",
+      "price": 313,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-05",
+      "year": 2026,
+      "month": "Mayo",
+      "price": 324,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-06",
+      "year": 2026,
+      "month": "Junio",
+      "price": 321,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-07",
+      "year": 2026,
+      "month": "Julio",
+      "price": 331,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-08",
+      "year": 2026,
+      "month": "Agosto",
+      "price": 344,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-09",
+      "year": 2026,
+      "month": "Septiembre",
+      "price": 369,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-10",
+      "year": 2026,
+      "month": "Octubre",
+      "price": 346,
+      "source": "CLAL TESEO – Mercado Rosario",
+      "note": "Promedio mensual de precios diarios."
+    },
+    {
+      "date": "2026-11",
+      "year": 2026,
+      "month": "Noviembre",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "Período futuro/no publicado al momento de preparar el archivo."
+    },
+    {
+      "date": "2026-12",
+      "year": 2026,
+      "month": "Diciembre",
+      "price": null,
+      "source": "Sin dato verificable",
+      "note": "Período futuro/no publicado al momento de preparar el archivo."
+    }
+  ]
+}
