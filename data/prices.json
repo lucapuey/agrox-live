@@ -1,125 +1,125 @@
 {
   "schema_version": 1,
   "project": "AGROX",
-  "updated_at": "2026-11-11T15:42:39-03:00",
-  "last_checked_at": "2026-11-11T18:42:14+00:00",
+  "updated_at": "2026-11-12T15:57:14-03:00",
+  "last_checked_at": "2026-11-12T18:56:48+00:00",
   "update_timezone": "America/Argentina/Buenos_Aires",
   "sources_status": {
     "Dólar oficial": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
-      "message": "Cotización diaria; 5792 registros históricos recibidos",
+      "checked_at": "2026-11-12T18:56:48+00:00",
+      "message": "Cotización diaria; 5793 registros históricos recibidos",
       "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
-      "records_updated": 5792
+      "records_updated": 5793
     },
     "Dólar MEP": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
-      "message": "Cotización diaria; 2936 registros históricos recibidos",
+      "checked_at": "2026-11-12T18:56:48+00:00",
+      "message": "Cotización diaria; 2937 registros históricos recibidos",
       "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
-      "records_updated": 2936
+      "records_updated": 2937
     },
     "BCRA A3500": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Serie oficial cargada (530 observaciones)",
       "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/REF",
       "records_updated": 530
     },
     "Granos · pizarra actual": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
-      "message": "Cotización para 2026-11-10 cargada",
+      "checked_at": "2026-11-12T18:56:48+00:00",
+      "message": "Cotización para 2026-11-11 cargada",
       "url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "records_updated": 5
     },
     "Leche · indicador sectorial": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Fallback de página usado porque /indicadores falló (La respuesta no asocia una fecha de observación al precio de leche; se conserva el dato anterior); SIGLeA 2026-09 convertido a USD/L",
       "url": "https://granos.ar/",
       "records_updated": 1
     },
     "Hacienda · AgroMove/PampaIA": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "url": "https://agromove.com.ar/cotizaciones/novillo",
       "records_updated": 3
     },
     "Campo Argento · insumos": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "url": "https://campoargento.com/precios",
       "records_updated": 8
     },
     "Petróleo · Brent spot": {
       "status": "error",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Se conserva el último dato: No se reconocieron filas de fecha/precio Brent en la tabla de EIA",
       "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
       "records_updated": 0
     },
     "Gas Oil · Surtidores": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Serie mensual YPF CABA cargada (107 meses); última observación 2026-11-01",
       "url": "https://surtidores.com.ar/precios/",
       "records_updated": 107
     },
     "Maquinaria · RNM Maquinac": {
       "status": "error",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Se conserva el último precio: RNM current price was found but the previous-year comparable was not; preserving previous item",
       "url": "https://maquinac.com/estadistica/rnm-precios-dolares/",
       "records_updated": 0
     },
     "Cerdo · AgroMove/SIO Porcino": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Capón general actualizado al 2026-11-11; convertido a USD/kg con tipo de cambio de referencia",
       "url": "https://agromove.com.ar/cotizaciones/capon-porcino",
       "records_updated": 1
     },
     "Tierra · PampaIA arrendamientos": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Página revisada; referencia Núcleo Norte 589 USD/ha, no representa promedio nacional",
       "url": "https://pampaia.ar/agrodata/arrendamientos",
       "records_updated": 1
     },
     "Logística · flete CATAC/Granos.ar": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "ARS 37,500/t convertidos a USD/t con TC actual; cuadro subyacente Abril 2026",
       "url": "https://granos.ar/",
       "records_updated": 1
     },
     "Maní · BCCBA": {
       "status": "error",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "No se sustituyó el valor: No se encontró una cotización fechada y expresada en USD/t en la página",
       "url": "https://www.bccba.org.ar/",
       "records_updated": 0
     },
     "World Bank · benchmarks mensuales": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Benchmarks cargados para 6 productos; precios locales no sobrescritos",
       "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
       "records_updated": 6
     },
     "Granos · histórico": {
       "status": "ok",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Serie histórica integrada; 5 nuevas observaciones",
       "url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra/historico",
       "records_updated": 5
     },
     "Soja · histórico mensual desde 2020": {
       "status": "partial",
-      "checked_at": "2026-11-11T18:42:14+00:00",
+      "checked_at": "2026-11-12T18:56:48+00:00",
       "message": "Histórico mensual revisado; 0 meses nuevos/completados. Los meses originales se preservan.",
       "url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra/historico",
       "records_updated": 0
@@ -3366,6 +3366,12 @@
         "value": 1545.3974,
         "source": "BCRA A3500 REF",
         "quality": "oficial"
+      },
+      {
+        "date": "2026-11-11",
+        "value": 1547.9128,
+        "source": "BCRA A3500 REF",
+        "quality": "oficial"
       }
     ]
   },
@@ -3383,12 +3389,12 @@
       "name": "Soja",
       "cat": "Granos",
       "unit": "USD/t",
-      "price": 351.79,
-      "ars": 540000.0,
-      "annual": 22.49,
-      "deval": 8.88,
+      "price": 354.7,
+      "ars": 545000.0,
+      "annual": 24.08,
+      "deval": 9.28,
       "quality": "Pizarra observada · fuente secundaria con referencia CAC/BCR",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Granos.ar · pizarra Rosario",
       "source_url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "hist": [
@@ -3410,7 +3416,7 @@
         550000.0,
         559000.0,
         544000.0,
-        540000.0
+        545000.0
       ],
       "histLabels": [
         "May-25",
@@ -3433,9 +3439,9 @@
         "Oct-26",
         "Nov-26"
       ],
-      "real": 12.5,
+      "real": 13.54,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-10 → 2026-11-10",
+      "variationPeriod": "2025-11-11 → 2026-11-11",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "observations": [
@@ -6366,11 +6372,19 @@
           "fx": 1545.3974,
           "source": "Granos.ar · pizarra histórica",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 545000.0,
+          "ars": null,
+          "fx": 1547.9128,
+          "source": "Granos.ar · pizarra histórica",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización para 2026-11-10 cargada",
+      "refresh_note": "Cotización para 2026-11-11 cargada",
       "source_feed": "granos.ar",
       "benchmark_history": [
         {
@@ -11195,7 +11209,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 15.47
       },
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 2,
@@ -11203,12 +11217,12 @@
       "name": "Maíz",
       "cat": "Granos",
       "unit": "USD/t",
-      "price": 178.7,
-      "ars": 274300.0,
-      "annual": 16.08,
-      "deval": 8.88,
+      "price": 178.98,
+      "ars": 275000.0,
+      "annual": 18.24,
+      "deval": 9.28,
       "quality": "Pizarra observada · fuente secundaria con referencia CAC/BCR",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Granos.ar · pizarra Rosario",
       "source_url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "hist": [
@@ -11230,7 +11244,7 @@
         270700.0,
         291000.0,
         273300.0,
-        274300.0
+        275000.0
       ],
       "histLabels": [
         "May-25",
@@ -11253,9 +11267,9 @@
         "Oct-26",
         "Nov-26"
       ],
-      "real": 6.61,
+      "real": 8.2,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-10 → 2026-11-10",
+      "variationPeriod": "2025-11-11 → 2026-11-11",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "observations": [
@@ -14194,11 +14208,19 @@
           "fx": 1545.3974,
           "source": "Granos.ar · pizarra histórica",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 275000.0,
+          "ars": null,
+          "fx": 1547.9128,
+          "source": "Granos.ar · pizarra histórica",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización para 2026-11-10 cargada",
+      "refresh_note": "Cotización para 2026-11-11 cargada",
       "source_feed": "granos.ar",
       "benchmark_history": [
         {
@@ -19023,7 +19045,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 12.13
       },
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 3,
@@ -19031,12 +19053,12 @@
       "name": "Trigo",
       "cat": "Granos",
       "unit": "USD/t",
-      "price": 195.19,
-      "ars": 299620.0,
-      "annual": 28.03,
-      "deval": 8.88,
+      "price": 194.92,
+      "ars": 299500.0,
+      "annual": 29.14,
+      "deval": 9.28,
       "quality": "Pizarra observada · fuente secundaria con referencia CAC/BCR",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Granos.ar · pizarra Rosario",
       "source_url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "hist": [
@@ -19058,7 +19080,7 @@
         352000.0,
         333000.0,
         312500.0,
-        299620.0
+        299500.0
       ],
       "histLabels": [
         "May-25",
@@ -19081,9 +19103,9 @@
         "Oct-26",
         "Nov-26"
       ],
-      "real": 17.59,
+      "real": 18.18,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-10 → 2026-11-10",
+      "variationPeriod": "2025-11-11 → 2026-11-11",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "observations": [
@@ -22022,11 +22044,19 @@
           "fx": 1545.3974,
           "source": "Granos.ar · pizarra histórica",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 299500.0,
+          "ars": null,
+          "fx": 1547.9128,
+          "source": "Granos.ar · pizarra histórica",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización para 2026-11-10 cargada",
+      "refresh_note": "Cotización para 2026-11-11 cargada",
       "source_feed": "granos.ar",
       "benchmark_history": [
         {
@@ -25483,7 +25513,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 15.59
       },
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 4,
@@ -25491,12 +25521,12 @@
       "name": "Girasol",
       "cat": "Granos",
       "unit": "USD/t",
-      "price": 500.33,
-      "ars": 768000.0,
-      "annual": 69.27,
-      "deval": 8.88,
+      "price": 494.63,
+      "ars": 760000.0,
+      "annual": 69.01,
+      "deval": 9.28,
       "quality": "Pizarra observada · fuente secundaria con referencia CAC/BCR",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Granos.ar · pizarra Rosario",
       "source_url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "hist": [
@@ -25518,7 +25548,7 @@
         749750.0,
         761540.0,
         808250.0,
-        768000.0
+        760000.0
       ],
       "histLabels": [
         "May-25",
@@ -25541,9 +25571,9 @@
         "Oct-26",
         "Nov-26"
       ],
-      "real": 55.46,
+      "real": 54.66,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-10 → 2026-11-10",
+      "variationPeriod": "2025-11-11 → 2026-11-11",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "observations": [
@@ -28482,13 +28512,21 @@
           "fx": 1545.3974,
           "source": "Granos.ar · pizarra histórica",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 760000.0,
+          "ars": null,
+          "fx": 1547.9128,
+          "source": "Granos.ar · pizarra histórica",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización para 2026-11-10 cargada",
+      "refresh_note": "Cotización para 2026-11-11 cargada",
       "source_feed": "granos.ar",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 5,
@@ -28496,7 +28534,7 @@
       "name": "Carne vacuna",
       "cat": "Ganadería",
       "unit": "USD/kg vivo",
-      "price": 1.855833,
+      "price": 1.852818,
       "ars": 2868.0,
       "annual": 23.46,
       "deval": 6.19,
@@ -28574,9 +28612,9 @@
         },
         {
           "date": "2026-11-11",
-          "price": 1.8558333280488242,
+          "price": 1.8528175488955192,
           "ars": 2868.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "AgroMove · MAG Cañuelas",
           "quality": "proxy"
         }
@@ -28585,7 +28623,7 @@
       "refresh_status": "ok",
       "refresh_note": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "source_feed": "agromove-livestock",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 6,
@@ -28634,7 +28672,7 @@
       "refresh_status": "ok",
       "refresh_note": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "source_feed": "pampaia-invernada",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 7,
@@ -28642,7 +28680,7 @@
       "name": "Novillo",
       "cat": "Ganadería",
       "unit": "USD/kg vivo",
-      "price": 2.667922,
+      "price": 2.663587,
       "ars": 4123.0,
       "annual": 23.46,
       "deval": 6.19,
@@ -28722,9 +28760,9 @@
         },
         {
           "date": "2026-11-11",
-          "price": 2.667922179757776,
+          "price": 2.6635867343431747,
           "ars": 4123.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "AgroMove · MAG Cañuelas",
           "quality": "observed"
         }
@@ -28733,7 +28771,7 @@
       "refresh_status": "ok",
       "refresh_note": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "source_feed": "agromove-livestock",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 8,
@@ -28780,7 +28818,7 @@
       "refresh_status": "partial",
       "refresh_note": "Fallback de página usado porque /indicadores falló (La respuesta no asocia una fecha de observación al precio de leche; se conserva el dato anterior); SIGLeA 2026-09 convertido a USD/L",
       "source_feed": "granosar/indicadores",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 9,
@@ -28790,10 +28828,10 @@
       "unit": "ARS/USD",
       "price": 1570.0,
       "ars": 1570.0,
-      "annual": 9.03,
-      "deval": 9.03,
+      "annual": 9.41,
+      "deval": 9.41,
       "quality": "Cotización histórica diaria · fuente secundaria",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "source": "ArgentinaDatos / DolarAPI",
       "source_url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
       "hist": [
@@ -28808,18 +28846,10 @@
       ],
       "real": 0.0,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-11 → 2026-11-11",
+      "variationPeriod": "2025-11-12 → 2026-11-12",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
       "observations": [
-        {
-          "date": "2020-11-03",
-          "price": 85.0,
-          "ars": 85.0,
-          "fx": null,
-          "source": "ArgentinaDatos/DolarAPI",
-          "quality": "market"
-        },
         {
           "date": "2020-11-04",
           "price": 85.0,
@@ -46411,14 +46441,22 @@
           "fx": null,
           "source": "ArgentinaDatos/DolarAPI",
           "quality": "market"
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1570.0,
+          "ars": 1570.0,
+          "fx": null,
+          "source": "ArgentinaDatos/DolarAPI",
+          "quality": "market"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización diaria; 5792 registros históricos recibidos",
+      "refresh_note": "Cotización diaria; 5793 registros históricos recibidos",
       "source_feed": "argentinadatos",
       "currency": "ARS per USD",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 10,
@@ -46426,12 +46464,12 @@
       "name": "Dólar MEP",
       "cat": "Finanzas",
       "unit": "ARS/USD",
-      "price": 1587.9,
-      "ars": 1587.9,
-      "annual": 8.96,
-      "deval": 9.1,
+      "price": 1578.3,
+      "ars": 1578.3,
+      "annual": 8.5,
+      "deval": 10.41,
       "quality": "Cotización histórica diaria · fuente secundaria",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "source": "ArgentinaDatos / DolarAPI",
       "source_url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
       "hist": [
@@ -46442,20 +46480,12 @@
         "27-oct-25",
         "27-oct-26"
       ],
-      "real": -0.13,
+      "real": -1.73,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-11 → 2026-11-11",
+      "variationPeriod": "2025-11-12 → 2026-11-12",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
       "observations": [
-        {
-          "date": "2020-11-03",
-          "price": 140.18,
-          "ars": 140.18,
-          "fx": null,
-          "source": "ArgentinaDatos/DolarAPI",
-          "quality": "market"
-        },
         {
           "date": "2020-11-04",
           "price": 139.75,
@@ -64047,14 +64077,22 @@
           "fx": null,
           "source": "ArgentinaDatos/DolarAPI",
           "quality": "market"
+        },
+        {
+          "date": "2026-11-12",
+          "price": 1578.3,
+          "ars": 1578.3,
+          "fx": null,
+          "source": "ArgentinaDatos/DolarAPI",
+          "quality": "market"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización diaria; 2936 registros históricos recibidos",
+      "refresh_note": "Cotización diaria; 2937 registros históricos recibidos",
       "source_feed": "argentinadatos",
       "currency": "ARS per USD",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 11,
@@ -68911,7 +68949,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 96.54
       },
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 12,
@@ -68987,641 +69025,641 @@
       "observations": [
         {
           "date": "2018-01-01",
-          "price": 0.013452850380102877,
+          "price": 0.01343098913582212,
           "ars": 20.79,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-02-01",
-          "price": 0.013925220787869837,
+          "price": 0.013902591928951036,
           "ars": 21.52,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-03-01",
-          "price": 0.013925220787869837,
+          "price": 0.013902591928951036,
           "ars": 21.52,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-04-01",
-          "price": 0.014688778433301361,
+          "price": 0.01466490877263887,
           "ars": 22.7,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-05-01",
-          "price": 0.014688778433301361,
+          "price": 0.01466490877263887,
           "ars": 22.7,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-06-01",
-          "price": 0.014915257395929358,
+          "price": 0.014891019700851365,
           "ars": 23.05,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-07-01",
-          "price": 0.01565940255884991,
+          "price": 0.015633955607835273,
           "ars": 24.2,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-08-01",
-          "price": 0.016785326544486227,
+          "price": 0.0167580499366631,
           "ars": 25.94,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-09-01",
-          "price": 0.018694220658065037,
+          "price": 0.018663842045882686,
           "ars": 28.89,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-10-01",
-          "price": 0.02105607269689984,
+          "price": 0.021021856011527264,
           "ars": 32.54,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-11-01",
-          "price": 0.02184551365234599,
+          "price": 0.021810014104153667,
           "ars": 33.76,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2018-12-01",
-          "price": 0.02254436302274095,
+          "price": 0.02250772782549508,
           "ars": 34.84,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-01-01",
-          "price": 0.02254436302274095,
+          "price": 0.02250772782549508,
           "ars": 34.84,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-02-01",
-          "price": 0.022764371157865282,
+          "price": 0.02272737844147293,
           "ars": 35.18,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-03-01",
-          "price": 0.023404983080727325,
+          "price": 0.023366949352702556,
           "ars": 36.17,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-04-01",
-          "price": 0.025656831051999954,
+          "price": 0.025615138010358203,
           "ars": 39.65,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-05-01",
-          "price": 0.025656831051999954,
+          "price": 0.025615138010358203,
           "ars": 39.65,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-06-01",
-          "price": 0.02603860987471572,
+          "price": 0.025996296432202123,
           "ars": 40.24,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-07-01",
-          "price": 0.02779867495571042,
+          "price": 0.02775350136002493,
           "ars": 42.96,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-08-01",
-          "price": 0.02779867495571042,
+          "price": 0.02775350136002493,
           "ars": 42.96,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-09-01",
-          "price": 0.027559254338075115,
+          "price": 0.027514469807343154,
           "ars": 42.59,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-10-01",
-          "price": 0.02762396261311168,
+          "price": 0.02757907292968958,
           "ars": 42.69,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-11-01",
-          "price": 0.030406418439684186,
+          "price": 0.03035700719058593,
           "ars": 46.99,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2019-12-01",
-          "price": 0.032315312553263,
+          "price": 0.032262799299805515,
           "ars": 49.94,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-01-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-02-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-03-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-04-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-05-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-06-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-07-01",
-          "price": 0.03238002082829957,
+          "price": 0.032327402422151943,
           "ars": 50.04,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-08-01",
-          "price": 0.03425656080436009,
+          "price": 0.03420089297019832,
           "ars": 52.94,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-09-01",
-          "price": 0.035951917610318226,
+          "price": 0.0358934947756747,
           "ars": 55.56,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-10-01",
-          "price": 0.0373690288336191,
+          "price": 0.037308303155061444,
           "ars": 57.75,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-11-01",
-          "price": 0.03843671537172251,
+          "price": 0.03837425467377749,
           "ars": 59.4,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2020-12-01",
-          "price": 0.04057208844792932,
+          "price": 0.04050615771120957,
           "ars": 62.7,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-01-01",
-          "price": 0.04328983599946525,
+          "price": 0.0432194888497595,
           "ars": 66.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-02-01",
-          "price": 0.04542520907567206,
+          "price": 0.045351391887191575,
           "ars": 70.2,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-03-01",
-          "price": 0.0489841642026834,
+          "price": 0.048904563616245046,
           "ars": 75.7,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-04-01",
-          "price": 0.05209016140443875,
+          "price": 0.05200551348887353,
           "ars": 80.5,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-05-01",
-          "price": 0.05487261723101126,
+          "price": 0.05478344774976988,
           "ars": 84.8,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-06-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-07-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-08-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-09-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-10-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-11-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2021-12-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-01-01",
-          "price": 0.05493732550604783,
+          "price": 0.05484805087211631,
           "ars": 84.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-02-01",
-          "price": 0.060178695784009986,
+          "price": 0.06008090378217688,
           "ars": 93.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-03-01",
-          "price": 0.06677893983774012,
+          "price": 0.0666704222615124,
           "ars": 103.2,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-04-01",
-          "price": 0.06677893983774012,
+          "price": 0.0666704222615124,
           "ars": 103.2,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-05-01",
-          "price": 0.07337918389147025,
+          "price": 0.07325994074084793,
           "ars": 113.4,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-06-01",
-          "price": 0.08289130032184601,
+          "price": 0.08275659972577266,
           "ars": 128.1,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-07-01",
-          "price": 0.08289130032184601,
+          "price": 0.08275659972577266,
           "ars": 128.1,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-08-01",
-          "price": 0.08813267059980817,
+          "price": 0.08798945263583323,
           "ars": 136.2,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-09-01",
-          "price": 0.08813267059980817,
+          "price": 0.08798945263583323,
           "ars": 136.2,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-10-01",
-          "price": 0.09427995672828231,
+          "price": 0.09412674925874376,
           "ars": 145.7,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-11-01",
-          "price": 0.10088020078201244,
+          "price": 0.1007162677380793,
           "ars": 155.9,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2022-12-01",
-          "price": 0.10489211383427977,
+          "price": 0.10472166132355776,
           "ars": 162.1,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-01-01",
-          "price": 0.10896873516158367,
+          "price": 0.10879165803138265,
           "ars": 168.4,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-02-01",
-          "price": 0.11330418958903385,
+          "price": 0.11312006722859323,
           "ars": 175.1,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-03-01",
-          "price": 0.11763964401648405,
+          "price": 0.11744847642580383,
           "ars": 181.8,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-04-01",
-          "price": 0.12236334809415364,
+          "price": 0.12216450435709297,
           "ars": 189.1,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-05-01",
-          "price": 0.12838121767255464,
+          "price": 0.12817259473531067,
           "ars": 198.4,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-06-01",
-          "price": 0.13608150240190647,
+          "price": 0.13586036629453546,
           "ars": 210.3,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-07-01",
-          "price": 0.1422287885303806,
+          "price": 0.141997662917446,
           "ars": 219.8,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-08-01",
-          "price": 0.16720618269449655,
+          "price": 0.1669344681431667,
           "ars": 258.4,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-09-01",
-          "price": 0.16720618269449655,
+          "price": 0.1669344681431667,
           "ars": 258.4,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-10-01",
-          "price": 0.1721240115972759,
+          "price": 0.17184430544149515,
           "ars": 266.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-11-01",
-          "price": 0.2122431421199492,
+          "price": 0.21189824129627974,
           "ars": 328.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2023-12-01",
-          "price": 0.382425905466128,
+          "price": 0.3818044530673821,
           "ars": 591.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-01-01",
-          "price": 0.4762529042691543,
+          "price": 0.4754789804697009,
           "ars": 736.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-02-01",
-          "price": 0.5073128762867078,
+          "price": 0.5064884791959857,
           "ars": 784.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-03-01",
-          "price": 0.5454907585582841,
+          "price": 0.5446043213803775,
           "ars": 843.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-04-01",
-          "price": 0.5713740685729121,
+          "price": 0.5704455703189482,
           "ars": 883.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-05-01",
-          "price": 0.5940219648357115,
+          "price": 0.5930566631401976,
           "ars": 918.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-06-01",
-          "price": 0.6089048680941226,
+          "price": 0.6079153812798757,
           "ars": 941.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-07-01",
-          "price": 0.6334940126080191,
+          "price": 0.6324645677715178,
           "ars": 979.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
         {
           "date": "2024-08-01",
-          "price": 0.6677893983774011,
+          "price": 0.6667042226151241,
           "ars": 1032.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "Surtidores · YPF CABA · gasoil",
           "quality": "observed monthly"
         },
@@ -69846,7 +69884,7 @@
       "refresh_status": "ok",
       "refresh_note": "Serie mensual YPF CABA cargada (107 meses); última observación 2026-11-01",
       "source_feed": "surtidores",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 13,
@@ -69859,7 +69897,7 @@
       "annual": 9.23,
       "deval": 5.72,
       "quality": "Proveedor observado",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -69980,6 +70018,14 @@
         },
         {
           "date": "2026-11-10",
+          "price": 615.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
           "price": 615.0,
           "ars": null,
           "fx": null,
@@ -74814,7 +74860,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 2.61
       },
-      "last_checked_at": "2026-11-11T18:42:14+00:00",
+      "last_checked_at": "2026-11-12T18:56:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -74828,7 +74874,7 @@
       "annual": 12.25,
       "deval": 5.72,
       "quality": "Proveedor observado",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -74954,13 +75000,21 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1020.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-11T18:42:14+00:00",
+      "last_checked_at": "2026-11-12T18:56:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -74974,7 +75028,7 @@
       "annual": 12.25,
       "deval": 5.72,
       "quality": "Proveedor observado",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -75100,13 +75154,21 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 1020.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-11T18:42:14+00:00",
+      "last_checked_at": "2026-11-12T18:56:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -79964,7 +80026,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 1.05
       },
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 17,
@@ -79977,7 +80039,7 @@
       "annual": 24.2,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80111,6 +80173,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 5.5,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80118,7 +80188,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 18,
@@ -80131,7 +80201,7 @@
       "annual": -5.19,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80265,6 +80335,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 5.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80272,7 +80350,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 19,
@@ -80285,7 +80363,7 @@
       "annual": -0.11,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80419,6 +80497,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 7.15,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80426,7 +80512,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 20,
@@ -80439,7 +80525,7 @@
       "annual": 8.95,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80565,13 +80651,21 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 7.9,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-11T18:42:14+00:00",
+      "last_checked_at": "2026-11-12T18:56:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -80604,7 +80698,7 @@
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 22,
@@ -80636,7 +80730,7 @@
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 23,
@@ -80649,7 +80743,7 @@
       "annual": 11.5,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80783,6 +80877,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 18.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80790,7 +80892,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 24,
@@ -80822,7 +80924,7 @@
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 25,
@@ -80860,7 +80962,7 @@
       "refresh_status": "error",
       "refresh_note": "Se conserva el último precio: RNM current price was found but the previous-year comparable was not; preserving previous item",
       "source_feed": "maquinac",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 26,
@@ -80868,12 +80970,12 @@
       "name": "Flete agrícola",
       "cat": "Logística",
       "unit": "USD/t · zona núcleo→Rosario",
-      "price": 24.2656,
+      "price": 24.22617,
       "ars": 37500.0,
       "annual": -21.39,
       "deval": 6.19,
       "quality": "Proxy estimativo: tarifa CATAC Abril 2026 convertida a USD con tipo de cambio actual; no es una cotización de transportista",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "source": "Granos.ar · referencia de flete CATAC núcleo→Rosario",
       "source_url": "https://granos.ar/",
       "hist": [
@@ -81007,6 +81109,14 @@
           "fx": 1545.3974,
           "source": "Granos.ar · referencia CATAC núcleo→Rosario",
           "quality": "proxy tariff converted at current FX"
+        },
+        {
+          "date": "2026-11-12",
+          "price": 24.22617087991003,
+          "ars": 37500.0,
+          "fx": 1547.9128,
+          "source": "Granos.ar · referencia CATAC núcleo→Rosario",
+          "quality": "proxy tariff converted at current FX"
         }
       ],
       "update_mode": "scheduled_source",
@@ -81015,8 +81125,8 @@
       "source_feed": "granosar-freight",
       "tariff_reference_date": "2026-04-01",
       "tariff_reference_ars_t": 37500.0,
-      "conversion_fx_date": "2026-11-11",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "conversion_fx_date": "2026-11-12",
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 27,
@@ -81057,8 +81167,8 @@
       "refresh_status": "partial",
       "refresh_note": "Página revisada; referencia Núcleo Norte 589 USD/ha, no representa promedio nacional",
       "source_feed": "pampaia-rent",
-      "page_verified_at": "2026-11-11",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "page_verified_at": "2026-11-12",
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 28,
@@ -81066,12 +81176,12 @@
       "name": "Sorgo",
       "cat": "Granos",
       "unit": "USD/t",
-      "price": 180.18,
-      "ars": 276570.0,
-      "annual": 35.89,
-      "deval": 8.88,
+      "price": 179.82,
+      "ars": 276300.0,
+      "annual": 36.97,
+      "deval": 9.28,
       "quality": "Pizarra observada · fuente secundaria con referencia CAC/BCR",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Granos.ar · pizarra Rosario",
       "source_url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "hist": [
@@ -81093,7 +81203,7 @@
         272500.0,
         294000.0,
         282125.11,
-        276570.0
+        276300.0
       ],
       "histLabels": [
         "May-25",
@@ -81116,9 +81226,9 @@
         "Oct-26",
         "Nov-26"
       ],
-      "real": 24.8,
+      "real": 25.35,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-10 → 2026-11-10",
+      "variationPeriod": "2025-11-11 → 2026-11-11",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "observations": [
@@ -84057,13 +84167,21 @@
           "fx": 1545.3974,
           "source": "Granos.ar · pizarra histórica",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-11",
+          "price": 276300.0,
+          "ars": null,
+          "fx": 1547.9128,
+          "source": "Granos.ar · pizarra histórica",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización para 2026-11-10 cargada",
+      "refresh_note": "Cotización para 2026-11-11 cargada",
       "source_feed": "granos.ar",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 29,
@@ -84095,7 +84213,7 @@
       "refresh_status": "error",
       "refresh_note": "No se sustituyó el valor: No se encontró una cotización fechada y expresada en USD/t en la página",
       "source_feed": "bccba-peanut",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     },
     {
       "id": 30,
@@ -84103,7 +84221,7 @@
       "name": "Cerdo",
       "cat": "Ganadería",
       "unit": "USD/kg vivo",
-      "price": 1.369227,
+      "price": 1.367002,
       "ars": 2116.0,
       "annual": -1.98,
       "deval": 6.19,
@@ -84235,9 +84353,9 @@
         },
         {
           "date": "2026-11-11",
-          "price": 1.3692270997738187,
+          "price": 1.3670020688503899,
           "ars": 2116.0,
-          "fx": 1545.3974,
+          "fx": 1547.9128,
           "source": "AgroMove · SIO Porcino (MAGyP)",
           "quality": "observed weekly"
         }
@@ -84246,7 +84364,7 @@
       "refresh_status": "partial",
       "refresh_note": "Capón general actualizado al 2026-11-11; convertido a USD/kg con tipo de cambio de referencia",
       "source_feed": "agromove-pork",
-      "last_checked_at": "2026-11-11T18:42:14+00:00"
+      "last_checked_at": "2026-11-12T18:56:48+00:00"
     }
   ]
 }
