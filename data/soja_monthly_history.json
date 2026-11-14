@@ -704,9 +704,9 @@
       "note": "Período futuro/no publicado al momento de preparar el archivo."
     }
   ],
-  "updated_at": "2026-11-13T15:32:00-03:00",
+  "updated_at": "2026-11-14T14:09:30-03:00",
   "last_auto_extension": {
-    "checked_at": "2026-11-13T18:31:55+00:00",
+    "checked_at": "2026-11-14T17:09:24+00:00",
     "new_months_added_or_filled": 0,
     "method": "Promedio aritmético de observaciones diarias de la pizarra Rosario, mínimo 5 días; meses base ya verificados no se sobrescriben."
   }
