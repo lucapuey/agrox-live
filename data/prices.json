@@ -1,125 +1,125 @@
 {
   "schema_version": 1,
   "project": "AGROX",
-  "updated_at": "2026-11-14T14:09:43-03:00",
-  "last_checked_at": "2026-11-14T17:09:24+00:00",
+  "updated_at": "2026-11-15T14:43:08-03:00",
+  "last_checked_at": "2026-11-15T17:42:48+00:00",
   "update_timezone": "America/Argentina/Buenos_Aires",
   "sources_status": {
     "Dólar oficial": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
-      "message": "Cotización diaria; 5795 registros históricos recibidos",
+      "checked_at": "2026-11-15T17:42:48+00:00",
+      "message": "Cotización diaria; 5796 registros históricos recibidos",
       "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
-      "records_updated": 5795
+      "records_updated": 5796
     },
     "Dólar MEP": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
-      "message": "Cotización diaria; 2939 registros históricos recibidos",
+      "checked_at": "2026-11-15T17:42:48+00:00",
+      "message": "Cotización diaria; 2940 registros históricos recibidos",
       "url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
-      "records_updated": 2939
+      "records_updated": 2940
     },
     "BCRA A3500": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
-      "message": "Serie oficial cargada (530 observaciones)",
+      "checked_at": "2026-11-15T17:42:48+00:00",
+      "message": "Serie oficial cargada (529 observaciones)",
       "url": "https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/REF",
-      "records_updated": 530
+      "records_updated": 529
     },
     "Granos · pizarra actual": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Cotización para 2026-11-12 cargada",
       "url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra",
       "records_updated": 5
     },
     "Leche · indicador sectorial": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Fallback de página usado porque /indicadores falló (La respuesta no asocia una fecha de observación al precio de leche; se conserva el dato anterior); SIGLeA 2026-09 convertido a USD/L",
       "url": "https://granos.ar/",
       "records_updated": 1
     },
     "Hacienda · AgroMove/PampaIA": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "url": "https://agromove.com.ar/cotizaciones/novillo",
       "records_updated": 3
     },
     "Campo Argento · insumos": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "url": "https://campoargento.com/precios",
       "records_updated": 8
     },
     "Petróleo · Brent spot": {
       "status": "error",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Se conserva el último dato: No se reconocieron filas de fecha/precio Brent en la tabla de EIA",
       "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
       "records_updated": 0
     },
     "Gas Oil · Surtidores": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Serie mensual YPF CABA cargada (107 meses); última observación 2026-11-01",
       "url": "https://surtidores.com.ar/precios/",
       "records_updated": 107
     },
     "Maquinaria · RNM Maquinac": {
       "status": "error",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Se conserva el último precio: RNM current price was found but the previous-year comparable was not; preserving previous item",
       "url": "https://maquinac.com/estadistica/rnm-precios-dolares/",
       "records_updated": 0
     },
     "Cerdo · AgroMove/SIO Porcino": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
-      "message": "Capón general actualizado al 2026-11-12; convertido a USD/kg con tipo de cambio de referencia",
+      "checked_at": "2026-11-15T17:42:48+00:00",
+      "message": "Capón general actualizado al 2026-11-14; convertido a USD/kg con tipo de cambio de referencia",
       "url": "https://agromove.com.ar/cotizaciones/capon-porcino",
       "records_updated": 1
     },
     "Tierra · PampaIA arrendamientos": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
-      "message": "Página revisada; referencia Núcleo Norte 589 USD/ha, no representa promedio nacional",
+      "checked_at": "2026-11-15T17:42:48+00:00",
+      "message": "Página revisada; referencia Núcleo Norte 648 USD/ha, no representa promedio nacional",
       "url": "https://pampaia.ar/agrodata/arrendamientos",
       "records_updated": 1
     },
     "Logística · flete CATAC/Granos.ar": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "ARS 37,500/t convertidos a USD/t con TC actual; cuadro subyacente Abril 2026",
       "url": "https://granos.ar/",
       "records_updated": 1
     },
     "Maní · BCCBA": {
       "status": "error",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "No se sustituyó el valor: No se encontró una cotización fechada y expresada en USD/t en la página",
       "url": "https://www.bccba.org.ar/",
       "records_updated": 0
     },
     "World Bank · benchmarks mensuales": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Benchmarks cargados para 6 productos; precios locales no sobrescritos",
       "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
       "records_updated": 6
     },
     "Granos · histórico": {
       "status": "ok",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Serie histórica integrada; 5 nuevas observaciones",
       "url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra/historico",
       "records_updated": 5
     },
     "Soja · histórico mensual desde 2020": {
       "status": "partial",
-      "checked_at": "2026-11-14T17:09:24+00:00",
+      "checked_at": "2026-11-15T17:42:48+00:00",
       "message": "Histórico mensual revisado; 0 meses nuevos/completados. Los meses originales se preservan.",
       "url": "https://granosar.lfcaucino.workers.dev/api/v1/pizarra/historico",
       "records_updated": 0
@@ -11229,7 +11229,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 15.47
       },
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 2,
@@ -19073,7 +19073,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 12.13
       },
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 3,
@@ -25549,7 +25549,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 15.59
       },
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 4,
@@ -28570,7 +28570,7 @@
       "refresh_status": "ok",
       "refresh_note": "Cotización para 2026-11-12 cargada",
       "source_feed": "granos.ar",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 5,
@@ -28683,7 +28683,7 @@
       "refresh_status": "ok",
       "refresh_note": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "source_feed": "agromove-livestock",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 6,
@@ -28732,7 +28732,7 @@
       "refresh_status": "ok",
       "refresh_note": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "source_feed": "pampaia-invernada",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 7,
@@ -28847,7 +28847,7 @@
       "refresh_status": "ok",
       "refresh_note": "Se actualizaron 3/3 categorías con fecha y unidad compatibles",
       "source_feed": "agromove-livestock",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 8,
@@ -28894,7 +28894,7 @@
       "refresh_status": "partial",
       "refresh_note": "Fallback de página usado porque /indicadores falló (La respuesta no asocia una fecha de observación al precio de leche; se conserva el dato anterior); SIGLeA 2026-09 convertido a USD/L",
       "source_feed": "granosar/indicadores",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 9,
@@ -28907,7 +28907,7 @@
       "annual": 10.18,
       "deval": 10.18,
       "quality": "Cotización histórica diaria · fuente secundaria",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "source": "ArgentinaDatos / DolarAPI",
       "source_url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
       "hist": [
@@ -28922,18 +28922,10 @@
       ],
       "real": 0.0,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-14 → 2026-11-14",
+      "variationPeriod": "2025-11-15 → 2026-11-15",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://api.argentinadatos.com/v1/cotizaciones/dolares/oficial",
       "observations": [
-        {
-          "date": "2020-11-06",
-          "price": 85.0,
-          "ars": 85.0,
-          "fx": null,
-          "source": "ArgentinaDatos/DolarAPI",
-          "quality": "market"
-        },
         {
           "date": "2020-11-07",
           "price": 85.0,
@@ -46525,14 +46517,22 @@
           "fx": null,
           "source": "ArgentinaDatos/DolarAPI",
           "quality": "market"
+        },
+        {
+          "date": "2026-11-15",
+          "price": 1570.0,
+          "ars": 1570.0,
+          "fx": null,
+          "source": "ArgentinaDatos/DolarAPI",
+          "quality": "market"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización diaria; 5795 registros históricos recibidos",
+      "refresh_note": "Cotización diaria; 5796 registros históricos recibidos",
       "source_feed": "argentinadatos",
       "currency": "ARS per USD",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 10,
@@ -46545,7 +46545,7 @@
       "annual": 8.57,
       "deval": 10.11,
       "quality": "Cotización histórica diaria · fuente secundaria",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "source": "ArgentinaDatos / DolarAPI",
       "source_url": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
       "hist": [
@@ -46558,18 +46558,10 @@
       ],
       "real": -1.4,
       "variationQuality": "observed",
-      "variationPeriod": "2025-11-14 → 2026-11-14",
+      "variationPeriod": "2025-11-15 → 2026-11-15",
       "variationMethod": "Calculado automáticamente con dos observaciones comparables de aproximadamente 12 meses. Para precios USD/unidad, la variación nominal es el equivalente ARS; la variación real descuenta la variación del tipo de cambio del mismo período.",
       "variationSourceUrl": "https://api.argentinadatos.com/v1/cotizaciones/dolares/bolsa",
       "observations": [
-        {
-          "date": "2020-11-06",
-          "price": 141.88,
-          "ars": 141.88,
-          "fx": null,
-          "source": "ArgentinaDatos/DolarAPI",
-          "quality": "market"
-        },
         {
           "date": "2020-11-07",
           "price": 141.88,
@@ -64161,14 +64153,22 @@
           "fx": null,
           "source": "ArgentinaDatos/DolarAPI",
           "quality": "market"
+        },
+        {
+          "date": "2026-11-15",
+          "price": 1580.9,
+          "ars": 1580.9,
+          "fx": null,
+          "source": "ArgentinaDatos/DolarAPI",
+          "quality": "market"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "ok",
-      "refresh_note": "Cotización diaria; 2939 registros históricos recibidos",
+      "refresh_note": "Cotización diaria; 2940 registros históricos recibidos",
       "source_feed": "argentinadatos",
       "currency": "ARS per USD",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 11,
@@ -69025,7 +69025,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 96.54
       },
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 12,
@@ -69960,7 +69960,7 @@
       "refresh_status": "ok",
       "refresh_note": "Serie mensual YPF CABA cargada (107 meses); última observación 2026-11-01",
       "source_feed": "surtidores",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 13,
@@ -69973,7 +69973,7 @@
       "annual": 9.23,
       "deval": 5.72,
       "quality": "Proveedor observado",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -70118,6 +70118,14 @@
         },
         {
           "date": "2026-11-13",
+          "price": 615.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "observed"
+        },
+        {
+          "date": "2026-11-14",
           "price": 615.0,
           "ars": null,
           "fx": null,
@@ -74952,7 +74960,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 2.61
       },
-      "last_checked_at": "2026-11-14T17:09:24+00:00",
+      "last_checked_at": "2026-11-15T17:42:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -74966,7 +74974,7 @@
       "annual": 12.25,
       "deval": 5.72,
       "quality": "Proveedor observado",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -75116,13 +75124,21 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1020.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-14T17:09:24+00:00",
+      "last_checked_at": "2026-11-15T17:42:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -75136,7 +75152,7 @@
       "annual": 12.25,
       "deval": 5.72,
       "quality": "Proveedor observado",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -75286,13 +75302,21 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "observed"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1020.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "observed"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-14T17:09:24+00:00",
+      "last_checked_at": "2026-11-15T17:42:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -80150,7 +80174,7 @@
         "quality": "benchmark mensual internacional",
         "annual_pct": 1.05
       },
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 17,
@@ -80163,7 +80187,7 @@
       "annual": 24.2,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80321,6 +80345,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 5.5,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80328,7 +80360,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 18,
@@ -80341,7 +80373,7 @@
       "annual": -5.19,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80499,6 +80531,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 5.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80506,7 +80546,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 19,
@@ -80519,7 +80559,7 @@
       "annual": -0.11,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80677,6 +80717,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 7.15,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -80684,7 +80732,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 20,
@@ -80697,7 +80745,7 @@
       "annual": 8.95,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -80847,13 +80895,21 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 7.9,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-14T17:09:24+00:00",
+      "last_checked_at": "2026-11-15T17:42:48+00:00",
       "source_observed_date_known": true
     },
     {
@@ -80886,7 +80942,7 @@
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 22,
@@ -80918,7 +80974,7 @@
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 23,
@@ -80931,7 +80987,7 @@
       "annual": 11.5,
       "deval": 6.19,
       "quality": "Proxy: mediana de formulaciones listadas por proveedor",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Campo Argento / precios de proveedores",
       "source_url": "https://campoargento.com/precios",
       "hist": [
@@ -81089,6 +81145,14 @@
           "fx": null,
           "source": "Campo Argento / precios de proveedores",
           "quality": "proxy"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 18.0,
+          "ars": null,
+          "fx": null,
+          "source": "Campo Argento / precios de proveedores",
+          "quality": "proxy"
         }
       ],
       "update_mode": "scheduled_source",
@@ -81096,7 +81160,7 @@
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
       "source_observed_date_known": true,
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 24,
@@ -81128,7 +81192,7 @@
       "refresh_status": "partial",
       "refresh_note": "Listado inspeccionado; 8 precios actualizados. Los proxies agregan formulaciones distintas.",
       "source_feed": "campoargento",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 25,
@@ -81166,7 +81230,7 @@
       "refresh_status": "error",
       "refresh_note": "Se conserva el último precio: RNM current price was found but the previous-year comparable was not; preserving previous item",
       "source_feed": "maquinac",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 26,
@@ -81179,7 +81243,7 @@
       "annual": -21.39,
       "deval": 6.19,
       "quality": "Proxy estimativo: tarifa CATAC Abril 2026 convertida a USD con tipo de cambio actual; no es una cotización de transportista",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "source": "Granos.ar · referencia de flete CATAC núcleo→Rosario",
       "source_url": "https://granos.ar/",
       "hist": [
@@ -81337,6 +81401,14 @@
           "fx": 1547.0336,
           "source": "Granos.ar · referencia CATAC núcleo→Rosario",
           "quality": "proxy tariff converted at current FX"
+        },
+        {
+          "date": "2026-11-15",
+          "price": 24.239938938624217,
+          "ars": 37500.0,
+          "fx": 1547.0336,
+          "source": "Granos.ar · referencia CATAC núcleo→Rosario",
+          "quality": "proxy tariff converted at current FX"
         }
       ],
       "update_mode": "scheduled_source",
@@ -81345,8 +81417,8 @@
       "source_feed": "granosar-freight",
       "tariff_reference_date": "2026-04-01",
       "tariff_reference_ars_t": 37500.0,
-      "conversion_fx_date": "2026-11-14",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "conversion_fx_date": "2026-11-15",
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 27,
@@ -81354,12 +81426,12 @@
       "name": "Alquiler de campo",
       "cat": "Tierra",
       "unit": "USD/ha · referencia",
-      "price": 589.0,
+      "price": 648.0,
       "ars": null,
       "annual": 26.85,
       "deval": 22.76,
       "quality": "Referencia regional máxima (Núcleo Norte), no promedio nacional; campaña agrícola",
-      "date": "2026-10-27",
+      "date": "2026-11-15",
       "source": "PampaIA · referencia regional de arrendamientos",
       "source_url": "https://pampaia.ar/agrodata/arrendamientos",
       "hist": [
@@ -81381,14 +81453,22 @@
           "fx": null,
           "source": "PampaIA · Núcleo Norte",
           "quality": "regional maximum benchmark"
+        },
+        {
+          "date": "2026-11-15",
+          "price": 648.0,
+          "ars": null,
+          "fx": null,
+          "source": "PampaIA · Núcleo Norte",
+          "quality": "regional maximum benchmark"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
-      "refresh_note": "Página revisada; referencia Núcleo Norte 589 USD/ha, no representa promedio nacional",
+      "refresh_note": "Página revisada; referencia Núcleo Norte 648 USD/ha, no representa promedio nacional",
       "source_feed": "pampaia-rent",
-      "page_verified_at": "2026-11-14",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "page_verified_at": "2026-11-15",
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 28,
@@ -84409,7 +84489,7 @@
       "refresh_status": "ok",
       "refresh_note": "Cotización para 2026-11-12 cargada",
       "source_feed": "granos.ar",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 29,
@@ -84441,7 +84521,7 @@
       "refresh_status": "error",
       "refresh_note": "No se sustituyó el valor: No se encontró una cotización fechada y expresada en USD/t en la página",
       "source_feed": "bccba-peanut",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     },
     {
       "id": 30,
@@ -84449,12 +84529,12 @@
       "name": "Cerdo",
       "cat": "Ganadería",
       "unit": "USD/kg vivo",
-      "price": 1.370083,
+      "price": 1.367779,
       "ars": 2116.0,
       "annual": -1.98,
       "deval": 6.19,
       "quality": "Referencia sectorial semanal observada · capón general kg vivo",
-      "date": "2026-11-12",
+      "date": "2026-11-14",
       "source": "AgroMove · SIO Porcino (MAGyP)",
       "source_url": "https://agromove.com.ar/cotizaciones/capon-porcino",
       "hist": [
@@ -84594,13 +84674,21 @@
           "fx": 1544.432,
           "source": "AgroMove · SIO Porcino (MAGyP)",
           "quality": "observed weekly"
+        },
+        {
+          "date": "2026-11-14",
+          "price": 1.3677789545101025,
+          "ars": 2116.0,
+          "fx": 1547.0336,
+          "source": "AgroMove · SIO Porcino (MAGyP)",
+          "quality": "observed weekly"
         }
       ],
       "update_mode": "scheduled_source",
       "refresh_status": "partial",
-      "refresh_note": "Capón general actualizado al 2026-11-12; convertido a USD/kg con tipo de cambio de referencia",
+      "refresh_note": "Capón general actualizado al 2026-11-14; convertido a USD/kg con tipo de cambio de referencia",
       "source_feed": "agromove-pork",
-      "last_checked_at": "2026-11-14T17:09:24+00:00"
+      "last_checked_at": "2026-11-15T17:42:48+00:00"
     }
   ]
 }
